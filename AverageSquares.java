@@ -29,11 +29,11 @@ public class AverageSquares {
         int count = 0;
 
         int i = startNum;
-        while(i <= endNum){
+        do{
             sum += i*i;
             count++;
             i++;
-        }
+        }while(i<=endNum);
 
         double avg = sum / count;
 
