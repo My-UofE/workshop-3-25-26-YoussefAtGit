@@ -3,29 +3,24 @@ public class NumbersInSpanish {
        // read the first argument passed to the program
        int number = Integer.parseInt(args[0]); 
 
-        if (number == 1){
-            System.out.println("Uno");
+        switch (number){
+            case 1:
+                System.out.println("uno");
+                break;
+            case 2:
+                System.out.println("dos");
+                break;
+            case 3:
+                System.out.println("tres");
+                break;
+            case 4:
+                System.out.println("cuatro");
+                break;
+            case 5:
+                System.out.println("cinco");
+                break;
+            default:
+                System.out.println("Sorry I do not know that!");
         }
-        else if (number == 2){
-            System.out.println("Dos");
-        }
-        else if (number == 3){
-            System.out.println("Tres");
-        }
-        else if (number == 4){
-            System.out.println("Cuatro");
-        }
-        else if (number == 5){
-            System.out.println("Cinco");
-        }
-        else{
-            System.out.println("I don't know that number");
-        }
-
-
-
-    
-       // delete the line below and replace with your code
-       System.out.println(number);
     }
  }
